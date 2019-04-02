@@ -1,0 +1,85 @@
+
+body {
+    width: 500px;
+    font-family: Arial;
+}
+
+.rollValue {
+    width: 40px;
+    margin: 5px;
+}
+
+.diceType {
+    position: relative;
+    width: 40px;
+    text-align: center;
+    display: inline-block;
+}
+
+.rollResults {
+    width: 100px;
+    margin: 5px;
+    text-align: right;
+    display: inline-block;
+}
+
+.rollTotal {
+    width: 30px;
+    margin: 5px;
+    text-align: right;
+    display: inline-block;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#diceNum {
+    position: relative;
+    left: 10px;
+}
+
+#diceMod {
+    position: relative;
+    left: 80px;
+}
+
+#diceResult {
+    position: relative;
+    left: 172px;
+}
+
+#diceTotal {
+    position: relative;
+    left: 230px;
+}
+
+#history {
+    position: relative;
+    left: 295px;
+}
+
+#linkContainer {
+    width: 96%;
+    text-align: right;
+}
+
+#historyContainer {
+    position: absolute;
+    float: right;
+    top: 86px;
+    padding: 5px;
+    right: 8px;
+    width: 135px;
+    height: 180px;
+    border: 1px lightgrey solid;
+    overflow: scroll;
+
+}
+
+.rollHistoryPoint {
+    position: relative;
+    width: 100%;
+}

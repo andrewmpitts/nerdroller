@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nerd Roller</title>
+    <link rel="stylesheet" type="text/css" href="css/popupstyle.css"/>
+</head>
+<body>
+    <h1 class = "header">Nerd Roller</h1>
+    <hr>
+    <span id = "diceNum">#dice</span><span id = "diceMod">mod</span> <span id = "diceResult">result</span><span id = "diceTotal">total</span><span id = "history">history</span>
+    
+    <div id = "rollContainer">
+        <div id = "rolld4"   ><input type="number" value = "1" min = "0" max = "99" class = "rollValue"><li class = "diceType" value = "4"   id = "diceType">d4 + </li><input type="number" class = "rollValue" value = "0"><button type = "submit" value = "Submit" id = "d4Button"    >Roll</button><input type="text" readonly="readonly" class = "rollResults"/><input type="text" readonly="readonly" class = "rollTotal"/></div>
+        <div id = "rolld6"   ><input type="number" value = "1" min = "0" max = "99" class = "rollValue"><li class = "diceType" value = "6"   id = "diceType">d6 + </li><input type="number" class = "rollValue" value = "0"><button type = "submit" value = "Submit" id = "d6Button"    >Roll</button><input type="text" readonly="readonly" class = "rollResults"/><input type="text" readonly="readonly" class = "rollTotal"/></div>
+        <div id = "rolld8"   ><input type="number" value = "1" min = "0" max = "99" class = "rollValue"><li class = "diceType" value = "8"   id = "diceType">d8 + </li><input type="number" class = "rollValue" value = "0"><button type = "submit" value = "Submit" id = "d8Button"    >Roll</button><input type="text" readonly="readonly" class = "rollResults"/><input type="text" readonly="readonly" class = "rollTotal"/></div>
+        <div id = "rolld10"  ><input type="number" value = "1" min = "0" max = "99" class = "rollValue"><li class = "diceType" value = "10"  id = "diceType">d10 + </li><input type="number" class = "rollValue" value = "0"><button type = "submit" value = "Submit" id = "d10Button"  >Roll</button><input type="text" readonly="readonly" class = "rollResults"/><input type="text" readonly="readonly" class = "rollTotal"/></div>
+        <div id = "rolld12"  ><input type="number" value = "1" min = "0" max = "99" class = "rollValue"><li class = "diceType" value = "12"  id = "diceType">d12 + </li><input type="number" class = "rollValue" value = "0"><button type = "submit" value = "Submit" id = "d12Button"  >Roll</button><input type="text" readonly="readonly" class = "rollResults"/><input type="text" readonly="readonly" class = "rollTotal"/></div>
+        <div id = "rolld20"  ><input type="number" value = "1" min = "0" max = "99" class = "rollValue"><li class = "diceType" value = "20"  id = "diceType">d20 + </li><input type="number" class = "rollValue" value = "0"><button type = "submit" value = "Submit" id = "d20Button"  >Roll</button><input type="text" readonly="readonly" class = "rollResults"/><input type="text" readonly="readonly" class = "rollTotal"/></div>
+        <div id = "rolld100" ><input type="number" value = "1" min = "0" max = "99" class = "rollValue"><li class = "diceType" value = "100" id = "diceType">d100 + </li><input type="number" class = "rollValue" value = "0"><button type = "submit" value = "Submit" id = "d100Button">Roll</button><input type="text" readonly="readonly" class = "rollResults"/><input type="text" readonly="readonly" class = "rollTotal"/></div>
+    </div>
+    <div id = "historyContainer"></div>
+    <hr>
+    <div id = "linkContainer"><a id = 'iconLink' href = "https://www.flaticon.com/authors/vitaly-gorbachev">icon</a> | <a id = 'authorLink' href = "http://apitts.com">author</a></div>
+</body>
+<script src="js/background.js"></script>
+</html>
